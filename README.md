@@ -12,3 +12,6 @@ git config --global init.defaultBranch main
 git init
 git add .
 git commit 'описание'
+git status -
+git diff -
+git diff --color-words
