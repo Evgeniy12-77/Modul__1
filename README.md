@@ -15,3 +15,4 @@ git commit 'описание'
 git status -
 git diff -
 git diff --color-words
+git checkout . # вернуть к последнему коммиту
