@@ -20,7 +20,7 @@
 {
    const nameProduct = prompt ('Введите наименование товара');
    const countProduct = +prompt ('Введите количество товара');
-   const categ0ryProduct = prompt ('Введите категорию товара');
+   const categoryProduct = prompt ('Введите категорию товара');
    const count = +prompt('Введите цену товара');
    console.log(`На складе ${countProduct} ${nameProduct} на общую сумму ${countProduct * count}`);
 };
