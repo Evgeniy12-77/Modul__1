@@ -14,7 +14,7 @@ if (total > 10 && cost < 30000) {
    } else if (promo === 'G3H2Z1' && sum_0 > 2000) {
       console.log (sum_0 - 500);
    } else {
-      console.log (sum_0);
+   console.log(sum_0);
    };
 } else if (total > 10 && cost > 30000) {
    const sum_1 = cost - threeprocent - fiftehnprocent;
@@ -49,5 +49,5 @@ if (total > 10 && cost < 30000) {
    }; } else {
       console.log ('Вы ввели неверные данные')
    };
-};
-calculate(40000, 15, 'G3H2Z1');
+   };
+   calculate(35000, 15, 'METHED');
