@@ -1,16 +1,18 @@
 'use strict'
+{
+let num1 = +prompt('Введите число первое:');
+let num2 = +prompt('Введите число второе:');
+// Функция для вычисления НОД
+function findGCD(a, b) {
+if (b === 0) {
+   return a;
+} else {
+   return findGCD(b, a % b);
+};
+};
+// Вызов функции и вывод результата
+let gcd = findGCD(num1, num2);
 
-const nod = (a,b) => {
-   const a = +prompt('Введите большее число');
-   const b = +prompt ('Введите меньшее число');
-   if (a > b && a % b === 0) {
-      console.log (`НОД = ${b}`);
-   } else if (a > b && a % b !== 0) {
-      const n = a % b;
-      if (a % n === 0 && b % n === 0) {
-         console.log (n);
-      }
-      
-   }
+console.log('Наибольший общий делитель: ' + gcd);
+};
 
-}

@@ -1,13 +1,16 @@
 'use strict'
-const maxNumber = (x,y) => {
-   if (x > y) {
-      console.log(x);
-   } else if (x < y) {
-      console.log(y);
-   } else if (x === y) {
-      console.log (x);
+{
+   let z = +prompt('Введите число 1');
+   let y = +prompt('Введите число 2');
+   
+const calMax = (a, b) => {
+   if(z >= y) {
+      console.log(a);
+   } else if (z <= y) {
+      console.log(b);
    } else {
-      console.log('Вы ввели неверные данные')
-   };
+   'Вы ввели неверные данные';
 };
-maxNumber(10, 18);
+};
+calMax(a,b)
+};
