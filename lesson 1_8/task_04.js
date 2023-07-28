@@ -20,7 +20,7 @@ const game = () => {
       alert ('Больше');
       return game_1();
    };
-   
+
    if (playerRandom === botRAndom) {
       alert ('Правильно');
       return game();
@@ -30,4 +30,3 @@ game_1();
 };
 
 game();
-console.log(alert());
