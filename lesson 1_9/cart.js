@@ -9,8 +9,8 @@ const cart = {
    return this.totalPrice;
    },
 
-   calculateItemPrice() {
-   let totalPrice = 0;
+   calculateItemPrice() { 
+      let totalPrice = 0;
    for (const item of this.items) {
        totalPrice += item.price * item.quantity;
    }
