@@ -8,8 +8,8 @@ return this.calculateItemPrice();
    },
  
    // Пересчитывает стоимость всей корзины и возвращает сумму
-   calculateItemPrice() {
-     let totalPrice = 0;
+   calculateItemPrice() { let totalPrice = 0;
+    
      for (const item of this.items) {
        totalPrice += item.price * item.quantity;
      }
