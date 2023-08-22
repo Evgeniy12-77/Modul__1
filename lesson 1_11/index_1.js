@@ -1,9 +1,8 @@
-'use strict';
-
+// eslint-disable-next-line strict
 const game = () => {
   const botRAndom = Math.ceil(Math.random() * 100);
 
-
+  // eslint-disable-next-line camelcase
   const game_1 = () => {
     const playerRandom = +prompt('Введи число от 1 до 100');
     if (isNaN(playerRandom) || playerRandom > 100 || playerRandom < 1) {
